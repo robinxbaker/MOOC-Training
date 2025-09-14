@@ -1,0 +1,15 @@
+
+import java.util.Scanner;
+
+public class OddOrEven {
+
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+
+        System.out.println("Give a number:");
+        
+        int number = Integer.valueOf(scan.nextLine());
+        
+        System.out.println("Number " + number + " is " + ((number % 2 == 0) ? "even." : "odd."));
+    }
+}
